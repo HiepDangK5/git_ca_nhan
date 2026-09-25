@@ -4,7 +4,7 @@ from matplotlib.ticker import MaxNLocator
 
 app = Flask(__name__)
 
-#Merge Nhánh này
+#conflict so 2
 
 @app.route("/", methods=["GET", "POST"])
 def index():
