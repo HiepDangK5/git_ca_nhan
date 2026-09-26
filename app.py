@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
 app = Flask(__name__)
+#Chinh sua nhanh 1 merge
 
-#Merge Nhánh này
 
 @app.route("/", methods=["GET", "POST"])
 def index():
